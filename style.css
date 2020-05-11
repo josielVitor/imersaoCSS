@@ -1,0 +1,30 @@
+body {
+    
+    font-family:Arial;
+    background-image: url(https://static.vecteezy.com/system/resources/previews/000/094/491/non_2x/polygonal-texture-background-vector.jpg);
+    background-size: auto 100vh;
+}
+  
+  a {
+    text-decoration: none;
+    color: rgb(57, 45, 112);
+  }
+  a:hover {
+    text-decoration: underline;
+  }
+  .menu li {
+    list-style:none;
+    
+  }
+  .menu ul {
+    display:flex;
+    justify-content: space-around;
+  }
+.site-title ,.site-subtitle {
+    text-align: center;
+    color: rgb(54, 54, 54);
+}
+.site-subtitle {
+    font-style: italic;
+    color: rgb(63, 50, 51);
+}
