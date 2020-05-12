@@ -110,11 +110,15 @@ figure {
 
 
 .info img {
-  width: 2.1em;
-  height: 2.1em;
+  width: 2.3em;
+  height: 2.3em;
 }
 
 @media (min-width: 800px) {
+  .info img {
+    width: 2.1em;
+    height: 2.1em;
+  }
   .info div img:hover {
     width: 2.4em;
     height: 2.4em;
