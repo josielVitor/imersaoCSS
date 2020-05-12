@@ -82,6 +82,7 @@ a:hover {
 .info {
   background-color: rgb(41, 41, 41);
   height: 160px;
+  margin-top: 20px;
 }
 .titulos {
   text-align: center;
