@@ -110,8 +110,8 @@ figure {
   position: static;
 }
 .info div img:hover {
-  width: 3.2em;
-  height: 3.2em;
+  width: 3.15em;
+  height: 3.15em;
 }
 @media (min-width: 800px) {
  .info img {
