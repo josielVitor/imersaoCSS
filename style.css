@@ -42,12 +42,12 @@ a:hover {
 
 .menu a {
   display: block;
-  padding: 5px 22px;
+  padding: 8px 26px;
 }
 
 .menu {
   background-color: rgb(41, 41, 41);
-  height: 30px;
+  height: 40px;
   width: 100vw;
   position: fixed;
   top: 0;
