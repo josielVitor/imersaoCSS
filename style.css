@@ -93,16 +93,35 @@ figure {
   text-align: center;
   padding: 8px;
 }
+
+.info div {
+  display: inline-flex;
+  justify-content: space-around;
+}
+
+.info nav {
+  margin: 10px;
+}
+
 .info img {
   width: 3.1em;
   height: 3.1em;
-  margin: 10px;
+  margin: 8px;
+  position: static;
+}
+.info div img:hover {
+  width: 3.3em;
+  height: 3.3em;
 }
 @media (min-width: 800px) {
  .info img {
    width: 2.1em;
    height: 2.1em;
  }
+.info div img:hover {
+  width: 2.2em;
+   height: 2.2em;
+}
  .img-portfolio {
    width: 250px;
    height: 250px;
