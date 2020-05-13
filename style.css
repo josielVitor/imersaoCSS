@@ -172,10 +172,13 @@ figure {
   .info div img:hover {
     width: 2.4em;
     height: 2.4em;
+    transition-duration: 0.2s;
+
   }
 
   .img-portfolio {
     width: 250px;
     height: 250px;
+    
   }
 }
