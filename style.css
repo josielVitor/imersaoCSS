@@ -92,7 +92,8 @@ a:hover {
   font-family: 'Righteous', cursive;
 }
 
-,.portfolio {
+,
+.portfolio {
   padding: 1.5em;
   font-size: 1.2em;
   min-height: 100vh;
@@ -114,9 +115,9 @@ a:hover {
   }
 }
 
-@media (min-width: 800px){
+@media (min-width: 800px) {
   .portfolio .grid {
-    grid-template-columns: repeat(2,260px);
+    grid-template-columns: repeat(2, 260px);
     align-content: center;
     justify-content: center;
     height: calc(100vh - 8em - 48px);
@@ -137,7 +138,7 @@ a:hover {
 
 }
 
-.img-portfolio:hover{
+.img-portfolio:hover {
   transform: scale(1.1);
 }
 
@@ -159,7 +160,7 @@ figure {
   .img-portfolio {
     width: 250px;
     height: 250px;
-    
+
   }
 }
 
@@ -174,6 +175,7 @@ figure {
   font-size: 3.9em;
   padding: 10px;
 }
+
 .contato a:hover {
   font-size: 3.8em;
   text-shadow: 0px 0px 10px rgb(184, 197, 206);
