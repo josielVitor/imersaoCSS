@@ -45,6 +45,15 @@ a:hover {
   display: block;
   padding: 8px 26px;
   font-family: 'Play', sans-serif;
+  transition: 0.6s;
+
+}
+
+.menu a:hover {
+  color: antiquewhite;
+  background-color: rgb(73, 73, 73);
+  border-radius: 28px;
+
 }
 
 .menu {
@@ -53,6 +62,7 @@ a:hover {
   width: 100vw;
   position: fixed;
   top: 0;
+  z-index: 1;
 }
 
 .menu li {
@@ -82,9 +92,10 @@ a:hover {
   font-family: 'Righteous', cursive;
 }
 
-.portfolio {
+.contato,.portfolio {
   padding: 1.5em;
   font-size: 1.2em;
+  min-height: 100vh;
 
 }
 
@@ -120,17 +131,18 @@ a:hover {
   height: 180px;
   width: 180px;
   object-fit: cover;
-  border: 2px;
+  object-position: left bottom;
   box-shadow: 8px 6px 10px rgba(48, 48, 48, 0.767);
-  border-radius: 6px;
+  transition: 1000ms;
 
 }
 
-.info {
-  background-color: rgb(41, 41, 41);
-  height: 120px;
-  margin-top: 20px;
-  box-shadow: 0px -6px 4px rgba(48, 48, 48, 0.767);
+.img-portfolio:hover{
+  transform: scale(1.1);
+}
+
+.portfolio a {
+  color: #000;
 }
 
 .titulos {
@@ -139,46 +151,29 @@ a:hover {
 
 }
 
-.info {
-  font-family: 'Play', sans-serif;
-
-}
-
 figure {
   margin: 8px;
 }
 
-.info div {
-  display: inline-flex;
-  justify-content: space-around;
-}
-
-.info nav {
-  margin: 10px;
-}
-
-
-.info img {
-  width: 2.3em;
-  height: 2.3em;
-}
-
 @media (min-width: 800px) {
-  .info img {
-    width: 2.1em;
-    height: 2.1em;
-  }
-
-  .info div img:hover {
-    width: 2.4em;
-    height: 2.4em;
-    transition-duration: 0.2s;
-
-  }
-
   .img-portfolio {
     width: 250px;
     height: 250px;
     
   }
+}
+
+.contato {
+
+}
+
+.contato a {
+  color: #000;
+  font-size: 3.9em;
+  padding: 10px;
+}
+.contato a:hover {
+  font-size: 3.8em;
+  text-shadow: 0px 0px 10px rgb(184, 197, 206);
+  transition: 0.3s;
 }
