@@ -235,6 +235,10 @@ figure {
   transition: 0.3s;
 }
 
+.sobre {
+  min-height: 30vh;
+}
+
 .sobre .foto {
   float: left;
   margin-right: 1em;
@@ -242,4 +246,14 @@ figure {
 .sobre .foto img {
   clip-path: polygon(0 0, 85% 0, 100% 15%, 100% 100%, 80% 100%, 15% 100%, 0 85%, 0 16%);
   box-shadow: 3px 3px 6px rgb(73, 73, 73);
+}
+
+.card-back p {
+  text-indent: 0.5em;
+  margin: 10px;
+  color: rgb(151, 151, 151);
+}
+
+.card-back p a {
+  color: rgb(81, 45, 116);
 }
