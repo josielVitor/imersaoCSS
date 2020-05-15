@@ -15,34 +15,57 @@
 <body>
   <header>
     <nav class="menu">
-      <ul>
+      <ul class="container">
         <li class="home"><a href="https://josielvitor.github.io/imersaoCSS/"><i class="fas fa-home"></i></a></li>
-        <li><a href="#">Sobre</a></li>
+        <li><a href="#sobre">Sobre</a></li>
         <li><a href="#portfolio">Portfólio</a></li>
         <li><a href="#contato">Contato</a></li>
       </ul>
     </nav>
     <div>
-      <h1 class="site-title">Josiel Vitor( )</h1>
+      <h1 class="site-title">Josiel Vitor O. Lopes( )</h1>
       <h2 class="site-subtitle">{web developer</h2>
       <h2 class="site-subtitle">game developer}</h2>
     </div>
   </header>
-  <section class="portfolio" id="portfolio">
+  <section class="sobre container" id="sobre">
+    <h2 class="titulos">.Sobre</h2>
+    <figure class="foto">
+      <img src="https://lh3.googleusercontent.com/a-/AOh14Gj1HPWatKe4BN6zOEAbeOdZI2Bl1bElPM5JOaAT=s88-c-k-c0x00ffffff-no-rj-mo" alt="foto">
+    </figure>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis eum aperiam voluptates dicta, voluptatum odit optio blanditiis omnis quam odio similique temporibus perferendis quo necessitatibus magnam dolorem non doloribus quis.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus voluptatem ratione et reiciendis. Error, aspernatur laboriosam ipsa facere odit voluptatem delectus voluptas nisi eaque ratione! A ullam dolores itaque illum?</p>
+    <p>Este site foi feito durante a <a href="https://www.alura.com.br/imersao-css">Imersão CSS</a> da <a href="https://www.alura.com.br/">Alura</a>.</p>
+  </section>
+  <section class="portfolio container" id="portfolio">
     <h2 class="titulos">.Portfólio</h2>
     <div class="grid">
-      <figure>
-        <img class="img-portfolio" src="./img/imgsitejava.png" alt="developer game">
-        <figcaption>Dev jogos.java <a href=""><i class="fas fa-info-circle"></i></a></figcaption>
-      </figure>
-      <figure>
-        <img class="img-portfolio" src="./img/webdesign-creditos-domenico-loia-unsplash.png" alt="Web design">
-        <figcaption>Web {design} <a href=""><i class="fas fa-info-circle"></i></a></figcaption>
-      </figure>
-    </div>
+      <div class="flip-card">
+        <div class="card">
+          <figure class="card-front">
+            <img class="img-portfolio" src="./img/imgsitejava.png" alt="developer game">
+            <figcaption>Dev jogos.java <a href=""><i class="fas fa-info-circle"></i></a></figcaption>
+          </figure>
+          <div class="card-back">
+            hello world
+          </div>
+        </div>
+      </div>
+      <div class="flip-card">
+        <div class="card">
+          <figure class="card-front">
+            <img class="img-portfolio" src="./img/webdesign-creditos-domenico-loia-unsplash.png" alt="Web design">
+            <figcaption>Web {design} <a href=""><i class="fas fa-info-circle"></i></a></figcaption>
+          </figure>
+          <div class="card-back">
+            hello world
+          </div>
+        </div>
+      </div>
+      </div>
   </section>
-  <h2 class="titulos">Contato</h2>
-  <section class="contato" id="contato">
+  <section class="contato container" id="contato">
+    <h2 class="titulos">.Contato</h2>
     <div>
       <a href="https://github.com/josielVitor"><i class="fab fa-github"></i></a>
       <a href="https://codepen.io/episilon369"><i class="fab fa-codepen"></i></a>
